@@ -1369,7 +1369,7 @@
 
       function loadData() {
         var nodeCount = 0;
-        $.getJSON("./../js/nn/webgl_convnet2.json", function (data) {
+        $.getJSON("webgl_convnet2.json", function (data) {
           $.each(data.nodes, function (i, node) {
             posX[nodeCount] = node.x;
             posY[nodeCount] = node.y;
